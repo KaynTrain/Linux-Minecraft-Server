@@ -56,6 +56,7 @@ Move to the ‘server’ directory
 
 Get the server.jar file from Mojang’s website *NOTE do not forget to type in ‘nogui’ at the end of the command*:
 ~wget -O minecraft_server.1.18.1.jar https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar 
+
 Attempt to run the server : 
 ~java -Xmx1024M -Xms1024M -jar minecraft_server.1.18.1.jar nogui
 
